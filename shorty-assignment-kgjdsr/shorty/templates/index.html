@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<head>
+
+</head>
+
+<body>
+
+    <p> Please provide a url and a provider in json format. Url must starts with http or htrps and provider must be bitly or tinyurl</p>
+
+    <p> eg. {
+        "url":"https://www.example.com/", 
+        "provider":"bitly"
+      }
+    </p>
+
+    <form method="POST" action="{{url_for('api.create_shortlink')}}">
+        <input name = 'name' type='text' style = "width:400px; height:40px">
+        <input type='submit'>
+    </form>
+
+</body>
+
