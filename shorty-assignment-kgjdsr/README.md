@@ -74,11 +74,6 @@ Resources
 3. `virtualenvwrapper`: https://virtualenvwrapper.readthedocs.io/en/latest/
 4. `HTTP statuses`: https://httpstatuses.com/
 
-Disclaimer
-----------
-
-We will not use any of this code for any of Plum's applications.
-
 
 ----------------------
 
