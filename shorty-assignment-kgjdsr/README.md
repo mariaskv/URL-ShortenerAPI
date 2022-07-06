@@ -1,19 +1,3 @@
-Software Engineer Task
-======================
-
-At Plum, we have a lot of services that need to work together to deliver our product.
-Many of these services talk to third-party providers to perform their operations – for
-example moving money, performing background checks, sending messages or emails, etc.
-
-In a lot of cases - due to business, compliance or technical reasons - we need to support
-multiple third-party providers for the same operation, some of which have wildy different
-specifications, ranging from simple REST APIs to SOAP.
-
-To maintain our sanity, we abstract these third-parties behind interfaces and expose
-consistent APIs for the rest of the system to consume. Each service should be able to
-pick sensible defaults (and fallbacks, if, for example, a provider is unavailable) or
-allow the consumer to specify the provider if they wish to do so.
-
 Mission
 -------
 
